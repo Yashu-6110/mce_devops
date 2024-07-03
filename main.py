@@ -6,15 +6,9 @@ from division import divide
 def main():
     print("Simple Calculator Program")
     
-<<<<<<< HEAD
-    a = 5
-    b = 8
-    
-=======
     a = 15
     b = 17
 
->>>>>>> main
     print(f"Addition of {a} and {b}: {add(a, b)}")
     print(f"Subtraction of {a} and {b}: {subtract(a, b)}")
     print(f"Multiplication of {a} and {b}: {multiply(a, b)}")
