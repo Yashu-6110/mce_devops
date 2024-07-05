@@ -10,7 +10,11 @@ const s3 = new AWS.S3();
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/images', async (req, res) => {
+<<<<<<< HEAD
     const bucketName = '4mc21cs179';
+=======
+    const bucketName = '4mc21cs016';
+>>>>>>> 8471e6e4fc11ea5b1e228c289036a6e6f459cb50
     const params = { Bucket: bucketName };
 
     try {
